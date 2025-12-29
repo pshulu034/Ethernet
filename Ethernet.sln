@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36212.18 d17.14
+VisualStudioVersion = 17.14.36212.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetUtil", "EthernetUtility\NetUtil.csproj", "{E5409AD2-C8F6-2624-26B2-8D464D52BE71}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpSimulator", "UdpSimulator\UdpSimulator.csproj", "{3A4D2FE4-B125-2137-8380-EEBD6013AD22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelnetSimulator", "TelnetSimulator\TelnetSimulator.csproj", "{5F44D690-DAF0-8985-FFE0-15CA6BDF8FFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpSimulator", "TcpSimulator\TcpSimulator.csproj", "{BB65790F-915E-C58F-CC58-138C55E1E2CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetUtilDemo", "EthernetUtilityDemo\NetUtilDemo.csproj", "{14875522-0BC9-D7DE-A643-38BCA138690E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnmpSimulator", "SnmpSimulator\SnmpSimulator.csproj", "{372B7F10-FC74-3CEC-5BC0-B0F0379C26DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetUtil", "NetUtil\NetUtil.csproj", "{09AC502E-2190-0416-BB3B-EA0A8A84FE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetUtilDemo", "NetUtilDemo\NetUtilDemo.csproj", "{BA8BD2C1-D0A3-2F6A-20B3-EACF5C8437A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E5409AD2-C8F6-2624-26B2-8D464D52BE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5409AD2-C8F6-2624-26B2-8D464D52BE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5409AD2-C8F6-2624-26B2-8D464D52BE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5409AD2-C8F6-2624-26B2-8D464D52BE71}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A4D2FE4-B125-2137-8380-EEBD6013AD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A4D2FE4-B125-2137-8380-EEBD6013AD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A4D2FE4-B125-2137-8380-EEBD6013AD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,14 +33,18 @@ Global
 		{BB65790F-915E-C58F-CC58-138C55E1E2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB65790F-915E-C58F-CC58-138C55E1E2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB65790F-915E-C58F-CC58-138C55E1E2CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14875522-0BC9-D7DE-A643-38BCA138690E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14875522-0BC9-D7DE-A643-38BCA138690E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14875522-0BC9-D7DE-A643-38BCA138690E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14875522-0BC9-D7DE-A643-38BCA138690E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{372B7F10-FC74-3CEC-5BC0-B0F0379C26DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{372B7F10-FC74-3CEC-5BC0-B0F0379C26DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{372B7F10-FC74-3CEC-5BC0-B0F0379C26DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{372B7F10-FC74-3CEC-5BC0-B0F0379C26DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09AC502E-2190-0416-BB3B-EA0A8A84FE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AC502E-2190-0416-BB3B-EA0A8A84FE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AC502E-2190-0416-BB3B-EA0A8A84FE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AC502E-2190-0416-BB3B-EA0A8A84FE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8BD2C1-D0A3-2F6A-20B3-EACF5C8437A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8BD2C1-D0A3-2F6A-20B3-EACF5C8437A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8BD2C1-D0A3-2F6A-20B3-EACF5C8437A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8BD2C1-D0A3-2F6A-20B3-EACF5C8437A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
