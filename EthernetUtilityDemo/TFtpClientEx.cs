@@ -1,17 +1,17 @@
-﻿using EthernetUtility;
+﻿using NetUtil;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EthernetUtilityDemo
+namespace NetUtilDemo
 {
     /// <summary>
     /// FtpManager 测试 / 示例类
     /// 注意：需要你自己提供可访问的 FTP 服务器信息后再运行
     /// </summary>ftp://192.168.2.118:2122
-    public static class TFtpManager
+    public static class TFtpClientEx
     {
         // 请根据实际情况修改这些测试参数
         private const string Host = "192.168.2.118";   // 可以是 IP 或域名

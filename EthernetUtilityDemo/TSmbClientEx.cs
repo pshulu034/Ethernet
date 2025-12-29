@@ -1,13 +1,13 @@
-﻿using EthernetUtility;
+﻿using NetUtil;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EthernetUtilityDemo
+namespace NetUtilDemo
 {
-    class TSmbManager
+    class TSmbClientEx
     {
         public async static void Test()
         {

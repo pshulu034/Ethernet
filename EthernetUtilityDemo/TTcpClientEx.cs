@@ -1,4 +1,4 @@
-﻿using EthernetUtility;
+﻿using NetUtil;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
-using EthernetUtility;
+using NetUtil;
 
-namespace EthernetUtilityDemo
+namespace NetUtilDemo
 {
     public static class TTelnetClientEx
     {

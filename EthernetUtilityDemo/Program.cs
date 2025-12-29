@@ -1,14 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using EthernetUtilityDemo;
+using NetUtilDemo;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using TEthernetUtility;
 using System;
 using System.Threading.Tasks;
-using EthernetUtility;
+using NetUtil;
 
-namespace EthernetUtilityDemo
+namespace NetUtilDemo
 {
     internal static class Program
     {

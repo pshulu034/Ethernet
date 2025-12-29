@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EthernetUtility
+namespace NetUtil
 {
     /// <summary>
     /// FTP 常用功能封装：

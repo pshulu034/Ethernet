@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace EthernetUtility
+namespace NetUtil
 {
     /// <summary>
     /// Minimal SNMP v2c client wrapper for simple Get requests.

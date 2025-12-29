@@ -1,4 +1,4 @@
-﻿using EthernetUtility;
+﻿using NetUtil;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,19 +6,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.NetworkInformation;
 
-namespace EthernetUtilityDemo
+namespace NetUtilDemo
 {
     /// <summary>
     /// IcmpManager 使用示例
     /// </summary>
-    public static class TIcmpManager
+    public static class TIcmpClientEx
     {
         /// <summary>
         /// 示例1：Ping 一次
         /// </summary>
         public static async Task PingOnceExample()
         {
-            var icmp = new IcmpManager();
+            var icmp = new IcmpClientEx();
 
             Console.WriteLine("=== ICMP 示例1：Ping 一次 ===");
 
@@ -39,7 +39,7 @@ namespace EthernetUtilityDemo
         /// </summary>
         public static async Task PingManyExample()
         {
-            var icmp = new IcmpManager();
+            var icmp = new IcmpClientEx();
             var host = "8.8.8.8";
 
             Console.WriteLine("=== ICMP 示例2：连续 Ping 并统计 ===");
@@ -63,7 +63,7 @@ namespace EthernetUtilityDemo
         /// </summary>
         public static async Task TraceRouteExample()
         {
-            var icmp = new IcmpManager();
+            var icmp = new IcmpClientEx();
             var host = "8.8.8.8";
 
             Console.WriteLine("=== ICMP 示例3：路由跟踪 (Traceroute) ===");

@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EthernetUtility\EthernetUtility.csproj" />
+    <ProjectReference Include="..\EthernetUtility\NetUtil.csproj" />
   </ItemGroup>
 
 </Project>

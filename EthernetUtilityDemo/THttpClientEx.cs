@@ -1,11 +1,11 @@
-﻿using EthernetUtility;
+﻿using NetUtil;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EthernetUtilityDemo
+namespace NetUtilDemo
 {
     // Define data models for JSONPlaceholder API
     public class Post
@@ -16,7 +16,7 @@ namespace EthernetUtilityDemo
         public string Body { get; set; }
     }
 
-    public class THttpManager
+    public class THttpClientEx
     {
         public static async Task Test()
         {
@@ -26,7 +26,7 @@ namespace EthernetUtilityDemo
 
             // Initialize HttpManager
             string baseUrl = "https://jsonplaceholder.typicode.com";
-            using var httpManager = new EthernetUtility.HttpClientEx(baseUrl);
+            using var httpManager = new NetUtil.HttpClientEx(baseUrl);
 
             try
             {

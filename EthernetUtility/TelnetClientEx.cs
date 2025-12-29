@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace EthernetUtility
+namespace NetUtil
 {
     /// <summary>
     /// 简易 Telnet 客户端封装，支持：
